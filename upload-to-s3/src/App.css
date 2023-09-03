@@ -1,0 +1,19 @@
+.App {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.success { 
+  padding: 1rem;
+  color: green;
+}
+
+.failure{
+  padding: 1rem;
+  color: red;
+}
+
+.message{
+  padding: 1rem;
+  color: blue;
+}
