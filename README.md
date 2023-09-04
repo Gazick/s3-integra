@@ -12,7 +12,7 @@ Learn how to build a web app for uploading images to S3 bucket, which then proce
 
 ## Schema
 
-- [Schema](https://github.com/Gazick/s3-integra/s3ApiLambdaDyn.jpg)
+<img src="https://github.com/Gazick/s3-integra/blob/main/s3ApiLambdaDyn.jpg" alt="Schema">
 
 ## How to start React App
 
