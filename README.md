@@ -1,21 +1,28 @@
-# Welcome to your CDK TypeScript project
+# Upload an image to S3 and detect objects in the image
 
-This is a blank project for CDK development with TypeScript.
+Learn how to build a web app for uploading images to S3 bucket, which then processed automatically.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## AWS Services Used
 
-## Useful commands
+- S3
+- Lambda
+- API Gateway
+- Rekognition
+- DynamoDB
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
+## Schema
+
+- [Schema](https://github.com/Gazick/s3-integra/s3ApiLambdaDyn.jpg)
+
+## How to start React App
+
+* `nmp install`     install required packages, needed only once
+* `cd upload-to-s3` change directory
+* `npm start`       start React app
+
+
+## Deploy stack
+
+* `cd ..`           change to the root directory
+* `nmp install`     install required packages, needed only once
 * `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
-
-
-## How to create React App
-
-* `npx create-react-app upload-to-s3`
-* `cd upload-to-s3`
-* `npm start`
