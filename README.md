@@ -19,6 +19,10 @@ Learn how to build a web app for uploading images to S3 bucket, which then proce
 * `nmp install`     install required packages, run only once
 * `cdk deploy`      deploy this stack to your default AWS account/region
 
+## Update *API_URL* and *bucketName* 
+
+After successfully deploying the stack, from stack outputs in terminal copy/paste *API_URL* and *bucketName* to `/upload-to-s3/src/App.js`
+
 ## How to start React App
 
 * `nmp install`     install required packages, run only once
