@@ -10,19 +10,17 @@ Learn how to build a web app for uploading images to S3 bucket, which then proce
 - Rekognition
 - DynamoDB
 
-## Diagram representing workflow
+## Diagram representing the workflow
 
 <img src="https://github.com/Gazick/s3-integra/blob/main/s3ApiLambdaDyn.jpg" alt="Diagram">
 
-## How to start React App
-
-* `nmp install`     install required packages, needed only once
-* `cd upload-to-s3` change directory
-* `npm start`       start React app
-
-
 ## Deploy stack
 
-* `cd ..`           change to the root directory
-* `nmp install`     install required packages, needed only once
+* `nmp install`     install required packages, run only once
 * `cdk deploy`      deploy this stack to your default AWS account/region
+
+## How to start React App
+
+* `nmp install`     install required packages, run only once
+* `cd upload-to-s3` change directory
+* `npm start`       start React app
