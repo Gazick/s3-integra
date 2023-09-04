@@ -10,9 +10,9 @@ Learn how to build a web app for uploading images to S3 bucket, which then proce
 - Rekognition
 - DynamoDB
 
-## Schema
+## Diagram representing workflow
 
-<img src="https://github.com/Gazick/s3-integra/blob/main/s3ApiLambdaDyn.jpg" alt="Schema">
+<img src="https://github.com/Gazick/s3-integra/blob/main/s3ApiLambdaDyn.jpg" alt="Diagram">
 
 ## How to start React App
 
